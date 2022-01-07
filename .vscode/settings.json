@@ -61,4 +61,9 @@
       }
     }
   ],
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "[scss]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
 }
