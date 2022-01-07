@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Counter from './components/Counter';
 import App from './App';
+import Counter from './components/Counter';
+import Note from './components/Note';
 import './css/App.css';
 
 ReactDOM.render(
@@ -10,6 +11,9 @@ ReactDOM.render(
     <BrowserRouter>
       <nav>
         <ul>
+          <li>
+            <Link to="/note">Note</Link>
+          </li>
           <li>
             <Link to="/counter">Counter</Link>
           </li>
@@ -25,9 +29,15 @@ ReactDOM.render(
         <Counter />
       </Route>
 
+      <Route exact path="/note">
+        <Note />
+      </Route>
+
       <Route exact path="/app">
         <App />
       </Route>
+
+
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root'),
