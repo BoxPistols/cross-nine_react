@@ -1,0 +1,64 @@
+{
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "[graphql]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "eslint.codeActionsOnSave.mode": "problems",
+  "js-codeformer.useSemicolons": true,
+  "propTypes.semicolon": true,
+  "terminal.integrated.env.linux": {},
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "prettier.alignObjectProperties": true,
+  "prettier.arrowParens": false,
+  "prettier.autoScroll": false,
+  "prettier.breakProperty": true,
+  "prettier.flattenTernaries": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.spaceBeforeFunctionParen": true,
+  "prettier.trailingComma": "all",
+  "[css]": {
+    "editor.defaultFormatter": "remimarsal.prettier-now"
+  },
+  "grammarly.overrides": [
+    {
+      "files": [
+        "**/package.json"
+      ],
+      "config": {
+        "audience": "general",
+        "dialect": "american",
+        "domain": "creative",
+        "emotions": [
+          "neutral"
+        ],
+        "goals": [
+          "inform"
+        ]
+      }
+    }
+  ],
+}
